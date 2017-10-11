@@ -1,0 +1,27 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A compatiability-based friend finder application utilizing node and express servers and deployed on Heroku.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "friendfinder",
+    "friend",
+    "finder",
+    "node",
+    "express",
+    "heroku",
+    "application"
+  ],
+  "author": "Kimberly Kruel",
+  "license": "ISC"
+}
