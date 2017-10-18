@@ -2,9 +2,9 @@
 
 This is a compatibility-based "FriendFinder" application utilizing Node and Express Servers. The full-stack site takes in results from users' surveys, then compares the answers with those from other users already in the database. The app will display the name and picture of the user with the best overall match.
 
-##Deployed on Heroku at:
+## Deployed on Heroku at:
 
-##Folder structure:
+## Folder structure:
 
 FriendFinder
 *	app
