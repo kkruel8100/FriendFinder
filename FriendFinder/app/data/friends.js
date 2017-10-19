@@ -24,7 +24,7 @@ var friendsArray = [{
   },
   {
     name: "Elliot",
-    photo: "https://cdn.pixabay.com/photo/2017/08/13/17/00/male-2637801_960_720.jpg",
+    photo: "https://cdn.pixabay.com/photo/2014/07/31/23/49/guitarist-407212_960_720.jpg",
     scores: [4, 2, 2, 1, 5, 2, 3, 2, 4, 2]
   },
   {
