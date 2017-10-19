@@ -20,7 +20,7 @@ FriendFinder
 * package.json
 * server.js
 
-##Overview:
+## Overview:
 
 * Survey contains 10 questions. Each answer is on a scale of 1 to 5 based on whether user agrees or disagrees with a question.  
 * Server.js file require the npm packages: express, body-parser and path.
@@ -29,7 +29,8 @@ FriendFinder
 	* A default, catch-all route that leads to home.html which displays the home page. 
 * ApiRoutes.js file contains two routes:
 	* A GET route to /api/friends. This will display a JSON of all possible friends.
-	* A POST route /api/friends. 
+	* A POST route /api/friends.  This handles the calculation logic.
+* App.js file contains the function to handle the survey submittal and response.
 * The application's data is inside of app/data/friends.js as an array of objects. Each of these objects has the format below.
 
 {
@@ -67,6 +68,6 @@ Total Difference: 2 + 1 + 2 = 5
   * The closest match is determined by the lowest difference.
   * All matches with the same difference are pushed into an array.  This captures if there is more than one match found.
   * A random number is generated and used to pick one from the multiple matches. 
-  * The result displays as a modal pop-up and shows the name and picture of the 
+  * The result displays as a modal pop-up and shows the name and picture of the closest match
 
 
